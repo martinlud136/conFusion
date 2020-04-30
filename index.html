@@ -45,7 +45,8 @@
                     <img src="img/logo.png" alt="logo" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <a href="#card" class="btn btn-warning btn-block">Reserve table</a>
+                    <a href="#card" class="btn btn-warning btn-block" data-toggle="tooltip" data-html="true"
+                    title="Or call us at <br><strong>+54 1121813618</strong>" data-placement="bottom">Reserve table</a>
                 </div>
             </div>
         </div>
@@ -208,6 +209,11 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 </body>
 
 </html>
