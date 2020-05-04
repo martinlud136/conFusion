@@ -139,9 +139,13 @@
                                     <div class="form-group row">
                                         <label for="firstname" class="col-sm-2 col-form-label">Section</label>
                                         <div class="col-sm-4">
-                                            <div class="btn-group" role="group" aria-label="Basic example">
-                                                <button type="button" class="btn btn-success">Non-Smoking</button>
-                                                <button type="button" class="btn btn-danger">Smoking</button>
+                                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                                <label class="btn btn-success">
+                                                  <input type="radio" name="no-smoking" id="no-smoking" autocomplete="off">No-Smoking
+                                                </label>
+                                                <label class="btn btn-danger">
+                                                  <input type="radio" name="smoking" id="smoking" autocomplete="off">Smoking
+                                                </label>
                                               </div>
                                         </div>
                                     </div>
